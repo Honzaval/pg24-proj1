@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+#gameArea {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3498db;
+    cursor: pointer;
+}
+
+.score-board {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+.bad-circle {
+    background-color: #e74c3c; /* Red for bad */
+}
+
+.score-board {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
